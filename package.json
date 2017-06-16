@@ -1,0 +1,38 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "a backend demo with koa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --exec npm run start",
+    "build": "babel src -d ./build"
+  },
+  "author": "gt",
+  "license": "ISC",
+  "dependencies": {
+    "concurrency-logger": "^2.0.1",
+    "config": "^1.26.1",
+    "fs": "0.0.1-security",
+    "google-protobuf": "^3.3.0",
+    "grpc": "^1.3.8",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-generic-session": "^1.11.6",
+    "koa-redis": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "object-path": "^0.11.4",
+    "path": "^0.12.7",
+    "redis": "^2.7.1",
+    "superagent": "^3.5.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "grpc-tools": "^1.3.8",
+    "nodemon": "^1.11.0",
+    "protobufjs": "^6.8.0"
+  }
+}

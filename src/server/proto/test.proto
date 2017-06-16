@@ -1,0 +1,18 @@
+
+
+// test.proto
+
+syntax = "proto3";
+
+package testPackage;
+
+service testService {
+  rpc ping (pingRequest) returns (pingReply) {}
+}
+
+message pingRequest {
+}
+
+message pingReply {
+  string message = 1;
+}
